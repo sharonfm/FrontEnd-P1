@@ -15,7 +15,7 @@ ul.navbar {
     padding: 0;
     width: 100%;
     height: 52px;
-    position: absolute;
+    position: relative;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -25,6 +25,12 @@ ul.navbar {
 }
   li.navitem {
     float: left;
+  }
+  li.navitem1 a{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    translate: Y(-50%);
   }
 
   li.navitem a {

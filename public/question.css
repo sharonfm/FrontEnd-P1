@@ -38,7 +38,12 @@
      padding: 14px 16px;
      text-decoration: none;
   }
-   
+  li.navitem1 a{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    translate: Y(-50%);
+  }
   li.navitem a:hover:not(.active) {
     background-color: #7580A4;
   }
